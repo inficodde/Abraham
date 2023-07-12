@@ -1,0 +1,14 @@
+.flag {
+    width: 900px;
+    height: 600px;
+    background-color: green;
+    position: relative;
+}
+.white {
+    height: 600px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 300px;
+    
+}

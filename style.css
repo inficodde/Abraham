@@ -1,0 +1,138 @@
+.hero {
+    position: relative;
+    height: 400px;
+    background: url('./assets/florian-krumm-1osIUArK5oA-unsplash.jpg') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 3rem;
+}
+
+.hero-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero-description {
+    font-size: 18px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume h1, .resume h2, .resume h3 {
+    margin-bottom: 10px;
+}
+
+.resume p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.resume .section {
+    margin-bottom: 20px;
+}
+
+.resume .section:last-child {
+    margin-bottom: 0;
+}
+.projects-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project-card {
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project-card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.Click {
+    color: red;
+    text-decoration: none;
+}
+.Click:hover {
+    color: red;
+  }
+.project-card h3 {
+    margin-top: 0;
+}
+
+@media (min-width: 600px) {
+    .projects-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+    }
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+  }
+  
+  .container p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color:white ;
+  }
+  footer {
+    background-color: rgb(64, 55, 73);
+    padding: 20px;
+  }
+  
+  footer h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #f5f5f5;
+  }
+  .emailink {
+    color: aqua;
+  }
